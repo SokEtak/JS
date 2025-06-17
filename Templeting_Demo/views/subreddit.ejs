@@ -1,0 +1,28 @@
+<%- include('portails/header') %>
+<%- include('portails/navbar') %>
+   
+    <div class="container-sm">
+        <h1>Result of browsing <%= name %> subreddit</h1>
+        <h2>description:<%= description%>
+        </h2>
+        <p1>Total Subscibers:<%= subscribers %>
+        </p1>
+        <hr />
+    </div>
+    
+    <% for(let post of posts){%>
+        <article class="container-sm">
+            <h3>
+                Post: <%= post.title %> --- posted by <a href="#">
+                    <%= post.author %>
+                </a>
+            </h3>
+            <% if (post.img) { %>
+                <img src=<%=post.img %> alt="Post Image" />
+                <% }else{ %>
+                    <small>This post has no photo</small>
+                    <%}%>
+                    <hr />
+                </article>
+                <%}%>              
+<%- include('portails/footer') %>

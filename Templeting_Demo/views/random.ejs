@@ -1,0 +1,15 @@
+<%- include('portails/header') %>
+    
+<!-- (not recomment) : must generate and pass to templete as argument -->
+        <!-- <h1>Here is your random number:<%=  Math.floor(Math.random()*10)%></h1> -->
+        <!-- passed to templete  -->
+        <h1>Here is your random number:<%=  num %> </h1>
+        
+        <!-- If-else  -->
+        <%if(num%2===0 && num!==0){%>
+            <h1><%="Even Number"%></h1>
+        <%}else{%>
+            <h1><%="Odd Number"%></h1>
+        <%}%>
+        <!-- Ternary Operator -->
+         <h2><%= num%2===0 && num!==0 ? 'Even':'Odd' %> Number!</h2> 

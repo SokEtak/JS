@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<title>Edit</title>
+<body>
+    <h1>Edit</h1>
+    <h1>post id:<%= comment.id %></h1>
+    <h1>commented by:<%= comment.username %></h1>
+    <h1>comment detail:</h1>
+    
+    <form method="POST" action="/comments/<%=comment.id%>?_method=PATCH">
+        <textarea name="comment" id="" cols="auto" rows="auto">
+            <%= comment.comment %>
+        </textarea><br>
+        <input type="submit" value="save">
+    </form>
+
+</body>
+</html>

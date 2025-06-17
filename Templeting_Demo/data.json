@@ -1,0 +1,283 @@
+{
+  "soccer": {
+    "name": "Soccer",
+    "subscribers": 800000,
+    "description": "The football subreddit. News, results and discussion about the beautiful game.",
+    "posts": [
+      {
+        "title": "Marten de Roon to make pizza for more than 1,000 people in Bergamo if Atalanta win the Champions league.",
+        "author": "joeextreme"
+      },
+      {
+        "title": "Stephan Lichtsteiner has retired from professional football",
+        "author": "odd person"
+      },
+      {
+        "title": "OFFICIAL: Dani Parejo signs for Villareal.",
+        "author": "joeextreme",
+        "img": "https://preview.redd.it/pcn8u4j7c9z61.jpg?width=960&crop=smart&auto=webp&s=e114976dde1108b9556555d2db36a3cb6211798d"
+      }
+    ]
+  },
+  "chickens": {
+    "name": "Chickens",
+    "subscribers": 23956,
+    "description": "A place to post your photos, video and questions about chickens!",
+    "posts": [
+      {
+        "title": "Naughty chicken hid under a shed for 3 weeks and came home with 25 chicks today!",
+        "author": "joeextreme",
+        "img": "https://preview.redd.it/pcn8u4j7c9z61.jpg?width=960&crop=smart&auto=webp&s=e114976dde1108b9556555d2db36a3cb6211798d"
+      },
+      {
+        "title": "My beautiful warrios chicken (-!-)",
+        "author": "Johtason",
+        "img": "https://preview.redd.it/combining-flocks-v0-tvw8x0gbsbge1.jpg?width=1080&crop=smart&auto=webp&s=0b02acf7007308c4afb54d9acc9369347e85fb21"
+      },
+      {
+        "title": "I like chicken",
+        "author": "fajj",
+        "img": "https://preview.redd.it/new-hatched-chicks-v0-8sc8wum6uege1.jpg?width=1080&crop=smart&auto=webp&s=e6676e627822fa2f6b01cc989b753e6e0e2eee81"
+      },
+      {
+        "title": "Hello Chiken Lover",
+        "author": "chikk",
+        "img": "https://preview.redd.it/show-your-chicken-as-a-chick-and-now-v0-avx0cnvvmbfe1.png?width=1080&crop=smart&auto=webp&s=44f5c6fd36c936f631f7fd59203f5d0e1a43b731"
+      },
+      {
+        "title": "My adult chicken",
+        "author": "kolo",
+        "img": "https://preview.redd.it/hes-gorgeous-v0-r47susgt0ffe1.jpeg?width=1080&crop=smart&auto=webp&s=c39344742cfbae5ba2476840f586d378dff86e5e"
+      },
+      {
+        "title": "Hi chicky",
+        "author": "Jacky Johnson",
+        "img": "https://preview.redd.it/the-ladies-really-enjoy-fresh-greens-when-they-are-cooped-v0-bkz8l64gt6fe1.jpeg?width=1080&crop=smart&auto=webp&s=cb64b4d676d8545e9b3a6ff613add2b122c96724"
+      },
+      {
+        "title": "Had to kill my first chicken today. Does it get any easier?",
+        "author": "sad boi"
+      },
+      {
+        "title": "Something about chicken",
+        "author": "kfklak"
+      },
+      {
+        "title": "My five year old chicken set and hatched one baby. I guess she wanted to be a mama one more time.",
+        "author": "tammythetiger",
+        "img": "https://preview.redd.it/lervkuis3me51.jpg?width=640&crop=smart&auto=webp&s=6a18ab3c4daa80eccf3449217589b922fa443946"
+      }
+      ,
+      {
+        "title": "Something about chicken",
+        "author": "lolopop"
+      },
+      {
+        "title": "Something about chicken",
+        "author": "topko"
+      },
+      {
+        "title": "Something about chicken",
+        "author": "Ryan"
+      }
+    ]
+  },
+  "mightyharvest": {
+    "name": "Mighty Harvest",
+    "subscribers": 44002,
+    "description": "Feeding many villages and village idiots for 10s of days.",
+    "posts": [
+      {
+        "title": "My first meyer lemon ripened today. I'm so proud of the little guy. Banana for scale",
+        "author": "proudmamma",
+        "img": "https://preview.redd.it/1bz6we4j54941.jpg?width=640&crop=smart&auto=webp&s=a036ea99299f7737efde9f6c3bfa43893f5eaa00"
+      },
+      {
+        "title": "I think I overestimated the harvest basket size I needed.",
+        "author": "grower123",
+        "img": "https://preview.redd.it/4h99osd25i351.jpg?width=640&crop=smart&auto=webp&s=d651250a345bbceeba7a66632e8c52a02d71bc73"
+      }
+    ]
+  },
+  "gardening": {
+    "name": "Gardening",
+    "subscribers": 100000,
+    "description": "A subreddit for all things gardening – from house plants to backyard gardens.",
+    "posts": [
+      {
+        "title": "Started my first vegetable garden this year! Here’s what I planted.",
+        "author": "greenfingers"
+      },
+      {
+        "title": "What’s the best way to prevent pests in a vegetable garden?",
+        "author": "earthlywisdom"
+      },
+      {
+        "title": "My roses are blooming! Just wanted to share.",
+        "author": "floralmaster",
+        "img": "https://preview.redd.it/jkg49is4jhgs2.jpg?width=640&crop=smart&auto=webp&s=f29ec30e67a63cf0b5b9136f02131b7d6c397baf"
+      }
+    ]
+  },
+  "history": {
+    "name": "History",
+    "subscribers": 200000,
+    "description": "A place to learn about the past, from ancient civilizations to modern events.",
+    "posts": [
+      {
+        "title": "Who was the real first emperor of China?",
+        "author": "historicalbuff"
+      },
+      {
+        "title": "The fall of the Roman Empire: What were the main causes?",
+        "author": "historygeek"
+      },
+      {
+        "title": "Found this fascinating old map of Europe from the 17th century!",
+        "author": "archaeologistjoe",
+        "img": "https://preview.redd.it/tjc9k2xjsm1y.jpg?width=640&crop=smart&auto=webp&s=42be28da56ac0a8da16b622cd1d1e1045c07a878"
+      }
+    ]
+  },
+  "pets": {
+    "name": "Pets",
+    "subscribers": 150000,
+    "description": "A community for pet lovers to share photos, stories, and advice.",
+    "posts": [
+      {
+        "title": "Meet my new rescue dog, Max! He’s settling in great.",
+        "author": "puppylover"
+      },
+      {
+        "title": "Looking for tips on introducing my cat to a new puppy.",
+        "author": "petmama"
+      },
+      {
+        "title": "My rabbit loves to play in his little maze! So cute.",
+        "author": "bunnyfan",
+        "img": "https://preview.redd.it/xz7e4w93f5ds.jpg?width=640&crop=smart&auto=webp&s=d7b8712fa8487c397d8f4f4c9ae0b54202b6ebdb"
+      }
+    ]
+  },
+  "technology": {
+    "name": "Technology",
+    "subscribers": 300000,
+    "description": "Stay up-to-date with the latest technology trends, gadgets, and innovations.",
+    "posts": [
+      {
+        "title": "New AI breakthrough could revolutionize healthcare.",
+        "author": "techenthusiast"
+      },
+      {
+        "title": "What do you think of the new iPhone’s features?",
+        "author": "applefan"
+      },
+      {
+        "title": "I built my own custom PC! Here are the specs and pics.",
+        "author": "pcmasterrace",
+        "img": "https://preview.redd.it/k43o79s8f68s.jpg?width=640&crop=smart&auto=webp&s=1339b121aab19be6ac92f71e12ad0832cb179eae"
+      }
+    ]
+  },
+  "travel": {
+    "name": "Travel",
+    "subscribers": 500000,
+    "description": "Share your travel experiences, tips, and destination recommendations.",
+    "posts": [
+      {
+        "title": "Just got back from Japan! Here’s my top 5 experiences.",
+        "author": "jetsetter"
+      },
+      {
+        "title": "What’s the best budget destination for solo travelers?",
+        "author": "globetrotter23"
+      },
+      {
+        "title": "I finally visited the Eiffel Tower! The view was breathtaking.",
+        "author": "wanderlust",
+        "img": "https://preview.redd.it/7j1kxsopac3v.jpg?width=640&crop=smart&auto=webp&s=bbca7ec8d8481ed29f062ed7e5008de8d1016b75"
+      }
+    ]
+  },
+  "movies": {
+    "name": "Movies",
+    "subscribers": 1200000,
+    "description": "A place to discuss movies of all genres, actors, and directors.",
+    "posts": [
+      {
+        "title": "Just watched The Matrix again! Still mind-blowing.",
+        "author": "filmfanatic"
+      },
+      {
+        "title": "What’s the most underrated movie of all time?",
+        "author": "moviebuff"
+      },
+      {
+        "title": "I met Leonardo DiCaprio on set of his latest film!",
+        "author": "starstruck",
+        "img": "https://preview.redd.it/bs72r89m1bqv.jpg?width=640&crop=smart&auto=webp&s=e4f5a9a6ac5b829e56ae13f9c96ab6c1ebadf98d"
+      }
+    ]
+  },
+  "fitness": {
+    "name": "Fitness",
+    "subscribers": 400000,
+    "description": "A community for fitness enthusiasts to share advice, workout routines, and motivation.",
+    "posts": [
+      {
+        "title": "I just completed my first marathon! Here’s my training story.",
+        "author": "runnershigh"
+      },
+      {
+        "title": "Looking for some good strength training routines for beginners.",
+        "author": "gymnewbie"
+      },
+      {
+        "title": "These pre-workout snacks have been a game changer for me!",
+        "author": "fitandstrong",
+        "img": "https://preview.redd.it/z7pc4os7jwzq.jpg?width=640&crop=smart&auto=webp&s=e0e25c13c48d9fcefb6e2d016c2ea4d74be1a049"
+      }
+    ]
+  },
+  "photography": {
+    "name": "Photography",
+    "subscribers": 750000,
+    "description": "A community for photography enthusiasts to share and discuss their work.",
+    "posts": [
+      {
+        "title": "Took this beautiful shot of the sunset last night.",
+        "author": "photomaster",
+        "img": "https://preview.redd.it/z0sxr8kwd2mz.jpg?width=640&crop=smart&auto=webp&s=c7899f2fd077d9eae687010f3e02d772bfa32f8b"
+      },
+      {
+        "title": "What camera do you recommend for a beginner?",
+        "author": "newphotographer"
+      },
+      {
+        "title": "Here’s a time-lapse of the city skyline at night.",
+        "author": "cityscapes",
+        "img": "https://preview.redd.it/z0sxr8kwd2mz.jpg?width=640&crop=smart&auto=webp&s=c7899f2fd077d9eae687010f3e02d772bfa32f8b"
+      }
+    ]
+  },
+  "fashion": {
+    "name": "Fashion",
+    "subscribers": 550000,
+    "description": "For all things fashion – from streetwear to haute couture.",
+    "posts": [
+      {
+        "title": "Picked up a new jacket from my favorite brand.",
+        "author": "styleguru"
+      },
+      {
+        "title": "What’s the best way to build a minimalist wardrobe?",
+        "author": "simplestyle"
+      },
+      {
+        "title": "Wore this outfit to my friend's wedding today.",
+        "author": "fashionlover",
+        "img": "https://preview.redd.it/2z7fj53v1bm2.jpg?width=640&crop=smart&auto=webp&s=d9b5d5930203bc07343e874e20d1c1a39e0d61ff"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+*{
+    font-weight: normal;
+}
+body{
+    background-color: rgb(0, 255, 251);
+    font-size: 30px;
+}
+
+hr{
+height: 50px;
+background-color: #2200ff;
+}
+
+article hr{
+height: 20px;
+background-color: #ff0000;
+}
+
+img{
+display: flex;
+flex-wrap: wrap;
+width: 500px;
+height: 500px;
+border-radius: 20px;
+}
+

@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "username": "JohnDoe123",
+    "comment": "This is amazing! Loved it!"
+  },
+  {
+    "id": 2,
+    "username": "JaneDoe456",
+    "comment": "Great content, keep it up!"
+  },
+  {
+    "id": 3,
+    "username": "user12345",
+    "comment": "I totally agree with this."
+  },
+  {
+    "id": 4,
+    "username": "tech_guru",
+    "comment": "Very informative, thanks for sharing!"
+  },
+  {
+    "id": 5,
+    "username": "superfan_88",
+    "comment": "Awesome post, looking forward to more."
+  },
+  {
+    "id": 6,
+    "username": "random_guy_21",
+    "comment": "woof woof\r\n        "
+  },
+  {
+    "id": 7,
+    "username": "cool_cat99",
+    "comment": "            lol lol !!!!!!!!!\r\n        "
+  },
+  {
+    "id": 8,
+    "username": "loved_it_5",
+    "comment": "meow meow \r\n        "
+  },
+  {
+    "id": 9,
+    "username": "wild_wonder",
+    "comment": "I can’t stop watching this."
+  },
+  {
+    "username": "tak",
+    "comment": "Hello everyone"
+  }
+]

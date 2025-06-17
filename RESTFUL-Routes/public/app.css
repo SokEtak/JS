@@ -1,0 +1,16 @@
+
+body{
+    background-color: rgb(245, 158, 158);
+} 
+/* 
+div{
+    color: rgb(224, 14, 172);    
+} */
+
+button{
+    background-color: rgb(89, 0, 255);
+}
+
+a{
+    text-decoration: none;
+}

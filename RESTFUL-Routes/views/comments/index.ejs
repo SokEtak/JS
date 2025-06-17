@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments</title>
+    <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+    <a href="/comments/new" id="addComment">Add Comment</a>
+   
+    
+    <% for (let comment of comments) { %>
+        <div>
+            <a href="#"> <%= comment.username %> </a>: <%= comment.comment %>
+            <!-- Link to the detailed comment page -->
+            <a href="/comments/<%= comment.id %>">Detail</a>
+        </div>
+        <hr>
+    <% } %>
+</body>
+</html>
