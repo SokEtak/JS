@@ -1,0 +1,9 @@
+.Dice {
+  width: auto;
+  height: auto;
+  border: 2px solid rgb(236, 17, 17);
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  gap: 10px;
+}

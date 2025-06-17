@@ -1,0 +1,15 @@
+.Button {
+  background-color: rgb(192, 32, 201);
+  border-radius: 10px;
+  outline: none;
+  color: rgb(11, 212, 247);
+  padding: 10px 20px; /* Optional for size control */
+  margin-top: 10px;
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.Button:hover {
+  background-color: rgb(11, 212, 247); /* Change to a different color on hover */
+  color: rgb(192, 32, 201); /* Change text color */
+  transform: scale(1.1); /* Slightly increase size */
+}
