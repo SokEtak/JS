@@ -1,0 +1,32 @@
+body {
+   display: flex; /* Enables flexbox layout */
+   align-items: center; /* Align items vertically */
+   justify-content: center; /* Align items horizontally */
+   height: 100vh; /* Ensure the body takes the full height of the viewport */
+   margin: 0; /* Remove default margin */
+   background-color: black; /* Set background color */
+   color: white; /* Optional: make text visible against black background */
+}
+
+div.container{
+  display: flex;
+  align-items: inherit;
+  justify-content: inherit;
+  flex-direction: row-reverse;
+  width: 1000px;
+  height: 500px;
+  background-color: rgb(10, 32, 49);
+}
+
+.box{
+   width:100px;
+   height:100px;
+   margin:5px;
+   transition: transform 2s ease 0.1s;
+}
+
+.container:hover{
+   .box{
+      transform: rotateZ(360deg);
+   }
+}

@@ -1,0 +1,41 @@
+
+/* set this properties when button got hovered */
+button:hover{
+   border-color: aqua;
+   border-width: 10%;
+   font-size: xx-large;
+   transition: all ease-in 0.3s;
+}
+
+button:not(:hover){
+   border-color: green;
+   transition: all ease-out 0.3s;
+}
+/* set <label>  to underline whenever checkbox got checked */
+#checkbox:checked+label{
+   text-decoration: underline;
+}
+/* opoosite from checked */
+#checkbox:not(:checked)+label{
+   text-decoration: underline;
+   color: red;
+}
+
+
+/* This selects the first 4 <li> elements (1st, 2nd, 3rd, and 4th) within their parent container. */
+li:nth-child(-n + 4) {
+   border: 2px solid orange;
+   margin-bottom: 1px;
+ }
+
+/* Applies styles to every even <dd> element (2nd, 4th, etc.) among its siblings. */
+ dd:nth-of-type(even) {
+   border: 2px solid orange;
+ }
+
+/* apply to firt <li> inside <ul> and first h1 in <div>  */
+li:first-child,h1:first-child{
+   color: rebeccapurple;
+}
+
+

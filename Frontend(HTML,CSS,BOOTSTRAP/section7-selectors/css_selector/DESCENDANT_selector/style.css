@@ -1,0 +1,9 @@
+/* Select all <h1>'s that are nested inside <div> */
+div h1{
+    text-decoration:underline;
+    color: aqua ;
+}
+
+div p {
+    font-style: italic;
+}

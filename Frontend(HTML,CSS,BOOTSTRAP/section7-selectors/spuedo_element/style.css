@@ -1,0 +1,28 @@
+/* inserted new content before the main content of h1*/
+h1::before{
+   content: "Content inserted before content of h1.";
+   color: red;
+}
+
+/* inserted new content after the main content of h1*/
+h1::after{
+   content: "Content inserted after content of h1.";
+   color: green;
+}
+/* modify the first letter for h1 */
+h1::first-letter{
+   color: royalblue;
+   text-decoration: overline;
+   font-size: 40px;
+}
+/* modify the first line for h1 */
+h1::first-line{
+   color: aqua;
+   text-transform: uppercase;
+}
+
+/*  */
+h1::selection{
+   background-color: rgb(0, 255, 13);
+   color: red;
+}

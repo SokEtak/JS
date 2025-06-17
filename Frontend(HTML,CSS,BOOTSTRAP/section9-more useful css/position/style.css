@@ -1,0 +1,70 @@
+/* The container div, using flexbox to arrange its child boxes */
+.container {
+   display: flex;  /* Uses flexbox for positioning */
+   width: 1000px;  /* Sets the container width */
+   height: 1000px; /* Sets the container height */
+   background-color: blueviolet;  /* Background color of the container */
+}
+
+/* Common styles for all the boxes */
+.box {
+   display: inherit;  /* Inherits display value from the container (flex in this case) */
+   align-items: center;  /* Vertically aligns text within each box */
+   justify-content: center;  /* Horizontally aligns text within each box */
+   color: rgb(0, 136, 255);  /* Sets text color */
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  /* Font style */
+   margin: 1px;  /* Sets margin around each box */
+   width: 10%;  /* Width of each box is 10% of the container */
+   height: 10%; /* Height of each box is 10% of the container */
+   background-color: black;  /* Background color of each box */
+   /* display: flex;  Ensures the content inside each box is centered */
+}
+
+/* Static positioning for the first box */
+#box1 {
+   position: static;  /* Default position value, meaning the box will be positioned according to the normal document flow */
+}
+
+/* Relative positioning for the second box */
+#box2 {
+   position: relative;  /* The box will be positioned relative to its normal position */
+   top: 300px;  /* Moves the box 300px down from its original position */
+   left: 400px;  /* Moves the box 120px to the left from its original position */
+}
+
+/* Absolute positioning for the third box */
+#box3 {
+   position: absolute;  /* The box is positioned relative to the nearest positioned ancestor (not static) */
+   top:400px;left: 400px;
+   /* These values are commented out, but if active, they would place the box 600px from the top and 100px from the left of the nearest positioned ancestor */
+}
+
+/* Sticky positioning for the fourth box (commented out for now) */
+#box4 {
+   position: sticky;  /* The box will behave like relative positioning until a certain scroll point is reached, then becomes fixed */
+   /* Example of how you could set 'top' for sticky behavior (not yet active) */
+   /* top: 0; */
+}
+
+/* _________________________________ */
+/* Parent container */
+.parent {
+   position: relative; /* This makes the parent the containing block for absolute positioning */
+   width:1000px;
+   height:1000px;
+   background-color: lightblue;
+ }
+ 
+ /* Absolutely positioned box */
+ .absolute-box {
+   position: absolute;
+   top: 400px; /* 50px from the top of the parent */
+   left: 400px; /* 100px from the left of the parent */
+   width: 100px;
+   height: 100px;
+   background-color: coral;
+   color: white;
+   text-align: center;
+   line-height: 100px;
+ }
+ 

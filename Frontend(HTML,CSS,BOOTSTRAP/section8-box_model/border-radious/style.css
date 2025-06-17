@@ -1,0 +1,8 @@
+/* its width and height calculate with border */
+#container{
+   width: 500px;
+   height: 500px;
+   border: 5px solid green;
+   /* border-style:dashed;  */
+   border-radius: 1%; /*radius will be 5px*/
+}

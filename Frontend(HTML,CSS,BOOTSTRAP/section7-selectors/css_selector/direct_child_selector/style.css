@@ -1,0 +1,6 @@
+/* Select only the <h1>'s that are direct
+children of a <div> element */
+div>h1{
+    text-decoration:underline;
+    color: aqua ;
+}

@@ -1,0 +1,67 @@
+/* Body styling */
+body {
+   display: flex; /* Center the container within the viewport */
+   align-items: center;
+   justify-content: center;
+   width: 100vw; /* Full width of the viewport */
+   height: 100vh; /* Full height of the viewport */
+   margin: 0; /* Remove default body margin */
+}
+
+/* Flex container styling */
+.flex-container {
+   display: flex;
+   /* flex-wrap: nowrap; Allow items to wrap to the next row if needed */
+   align-items: center; /* Center items vertically */
+   align-content: flex-end; /* Align rows to the bottom of the container */
+   justify-content: center; /* Center items horizontally */
+   /* flex-direction: row; Default: items are arranged in a row */
+   width: 90%; /* Make the container smaller than the body */
+   height: 300px; /* Fixed height */
+   background-color: rgb(10, 32, 49); /* Dark blue background */
+   gap: 10px; /* Add space between items */
+}
+
+/* Box styling */
+.box {
+   display: flex; /* Use flexbox inside the box */
+   align-items: center; /* Vertically center content inside the box */
+   justify-content: center; /* Horizontally center content inside the box */
+   flex: inherit; /* Inherit flex-grow and shrink values (set by individual boxes) */
+   flex-basis: 100px; /* Set the starting width of each box */
+   width: 100px; /* Default width (can grow or shrink based on flex-grow/shrink) */
+   max-width: none; /* Prevent boxes from becoming too large */
+   height: 100px; /* Fixed height */
+   font-size: 20px; /* Font size for box content */
+   color: #fff; /* White text for contrast */
+}
+
+/* Box-specific flex properties */
+#box1 {
+   flex-grow: 1; /* Can grow to fill extra space */
+   flex-shrink: 2; /* Can shrink when space is limited */
+   background-color: rgb(238, 255, 0); /* Yellow */
+}
+
+#box2 {
+   flex-grow: 1; /* Same growth priority as box1 */
+   flex-shrink: 1; /* Shrinks twice as much as box1 when space is limited */
+   background-color: rgb(234, 67, 123); /* Pinkish red */
+}
+
+#box3 {
+   flex-grow: 3; /* Grows three times as much as box1 and box2 */
+   background-color: rgb(0, 119, 239); /* Blue */
+}
+
+/* Uncomment to see additional boxes */
+
+#box4 {
+   flex-grow: 4; /* Grows four times as much as box1 */
+   background-color: rgb(200, 150, 250); /* Light purple */
+}
+
+#box5 {
+   flex-grow: 5; /* Grows five times as much as box1 */
+   background-color: rgb(255, 0, 183); /* Magenta */
+}

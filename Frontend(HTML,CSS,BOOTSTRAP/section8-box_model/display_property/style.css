@@ -1,0 +1,42 @@
+/* Default behavior for the span element, which is inline */
+span {
+   color: blue;
+}
+
+/* h1 by default is a block element, takes full width and starts on a new line */
+h1 {
+   color: green;
+   margin: 10px 0;
+}
+
+/* Changing span with the id 'spanAsBlock' to behave as a block-level element */
+#spanAsBlock {
+   display: block;  /* This makes it a block element */
+   background-color: lightblue;
+   padding: 10px;
+   margin: 10px 0;
+}
+
+/* Changing h1 with the id 'blockAsInline' to behave as an inline element */
+#blockAsInline {
+   display: inline;  /* This makes it behave like an inline element */
+   background-color: lightcoral;
+   padding: 5px;
+   margin: 5px;
+}
+
+/* Changing h1 with the id 'blockAsInlineBlock' to behave as an inline-block element */
+#blockAsInlineBlock {
+   display: inline-block;  /* This makes it behave like an inline-block element */
+   background-color: lightgreen;
+   padding: 10px;
+   margin: 10px;
+}
+
+/* Changing h1 with the id 'inlineAsInlineBlock' to behave as an inline-block element */
+#inlineAsInlineBlock {
+   display: inline-block;  /* This makes it behave like an inline-block element */
+   background-color: lightyellow;
+   padding: 10px;
+   margin: 10px;
+}

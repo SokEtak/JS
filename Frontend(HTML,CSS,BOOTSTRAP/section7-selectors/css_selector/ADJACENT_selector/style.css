@@ -1,0 +1,6 @@
+/* Select only the div that are
+immediately preceded by an <h1> */
+div+h1{
+    text-decoration:underline;
+    color: aqua ;
+}

@@ -1,0 +1,4 @@
+/* apply to all h1 and p */
+h1,p{
+    text-decoration:underline;
+}

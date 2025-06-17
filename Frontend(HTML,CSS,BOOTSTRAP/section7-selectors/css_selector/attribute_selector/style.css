@@ -1,0 +1,6 @@
+/* Select all input elements where the
+type attribute is set to "text" */
+input[type = "text"]{
+   border: 20;
+   border-color: blue;
+}

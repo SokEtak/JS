@@ -1,0 +1,14 @@
+div.container{
+   width: 400px;
+   height: 400px;
+   background-color: blueviolet;
+}
+
+/* Apply styles to a div with the class 'box' inside a div with the class 'container' */
+div.container>div.box{
+   width: 50%;
+   height: 50%;
+   background-color: brown;
+}
+
+

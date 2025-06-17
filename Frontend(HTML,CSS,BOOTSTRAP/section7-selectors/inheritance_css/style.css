@@ -1,0 +1,13 @@
+div h1 {
+   color: red;
+   font-size: 40px;
+}
+
+a {
+   font-size: 60px !important;
+}
+/* Even if another rule with higher specificity is applied, 
+   the rule with !important will take  . */
+a {
+   font-size: 50px;
+}

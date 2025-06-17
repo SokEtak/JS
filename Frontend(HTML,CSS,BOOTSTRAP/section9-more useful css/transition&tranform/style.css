@@ -1,0 +1,179 @@
+/* General Styles */
+body {
+   font-family: Arial, sans-serif;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   /* height: 100vh; Full height of the viewport */
+   margin: 0;
+   background-color: #f0f0f0;
+}
+
+.description {
+   font-size: 24px;
+   color: #333;
+   margin: 20px 0;
+}
+
+/* Basic Styling for all boxes */
+.box {
+   margin: 20px 0;
+   width: 200px;
+   height: 200px;
+   background-color: lightcoral;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: transform 1s ease-in-out;
+   border-radius: 10px;
+}
+
+/* Circle Transformation */
+.circle {
+   width: 200px;
+   height: 200px;
+   background-color: blueviolet;
+   border-radius: 0%; /* Initially square */
+   transition: background-color 0.5s ease-out, border-radius 0.5s ease-out;
+}
+
+.circle:hover {
+   border-radius: 50%; /* On hover, make the shape circular */
+   background-color: greenyellow; /* Change color to greenyellow */
+   transition: background-color 0.5s ease-in, border-radius 0.5s ease-in;
+}
+
+/* Box 1: Rotate (2D) */
+#box1:hover {
+   transform: rotate(360deg); /* Full 360-degree rotation */
+   /* Rotate is a 2D transform that spins the element along the z-axis */
+}
+
+/* Box 2: Scale */
+#box2:hover {
+   transform: scale(1.5); /* Scale up by 1.5x */
+   /* Scale is a 2D transform that enlarges or shrinks the element */
+}
+
+/* Box 3: Translate (Move) */
+#box3:hover {
+   transform: translate(100px, 50px); /* Move the box 100px right and 50px down */
+   /* Translate shifts the element along the x and y axes */
+}
+
+/* Box 4: Skew */
+#box4:hover {
+   transform: skew(30deg, 20deg); /* Skew along both X and Y axes */
+   /* Skew distorts the element by an angle along one or both axes */
+}
+
+/* Box 5: 3D Perspective Rotation */
+#box5 {
+   perspective: 500px; /* Enable 3D perspective for the box */
+}
+
+#box5:hover {
+   transform: rotateY(180deg); /* 180-degree rotation on the Y-axis */
+   /* A 3D effect that rotates the element around the vertical axis (Y) */
+}
+
+/* Box 6: 3D Rotate on X, Y, Z Axes */
+#box6:hover {
+   transform: rotate3d(1, 1, 1, 45deg); /* Rotate 45 degrees on all axes (X, Y, Z) */
+   /* rotate3d allows rotation along multiple axes by specifying the rotation on x, y, and z */
+}
+
+/* Box 7: Scale and Translate */
+#box7:hover {
+   transform: scale(2) translate(150px, 100px); /* Scale and move the element */
+   /* Scaling and translation applied together to enlarge and shift the box */
+}
+
+/* Box 8: 3D Matrix Transform */
+#box8:hover {
+   transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); /* Identity Matrix */
+   /* matrix3d defines a 4x4 transformation matrix, offering fine-grained control over 3D transforms */
+}
+
+/* Box 9: Shear Transformation */
+#box9:hover {
+   transform: shearX(30deg) shearY(20deg); /* Apply shear transformation */
+   /* Shearing distorts the shape by pushing one side, creating a slanted effect */
+}
+
+/* Box 10: 3D Translate */
+#box10:hover {
+   transform: translate3d(100px, 100px, 50px); /* Translate along all three axes (X, Y, Z) */
+   /* translate3d allows for movement along the 3D axes, making it move in 3D space */
+}
+
+/* Box 11: Flip Box Horizontally (3D) */
+#box11-container {
+   width: 200px; /* Specify width */
+   height: 200px; /* Specify height */
+   perspective: 1000px; /* Apply perspective for 3D effect */
+   position: relative; /* Necessary for positioning child elements */
+}
+
+#box11 {
+   width: 100%; /* Full width of container */
+   height: 100%; /* Full height of container */
+   background-color: lightcoral; /* Initial front side color */
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   backface-visibility: hidden; /* Hide back face */
+   border-radius: 10px; /* Optional: rounded corners */
+   transition: transform 1s ease-in-out; /* Smooth transition for flip */
+}
+
+#box11::before {
+   content: "Hello"; /* Content of the front side */
+   color: white;
+   font-size: 24px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: lightcoral; /* Front side background color */
+   border-radius: 10px;
+   backface-visibility: hidden; /* Hide the front side when flipped */
+}
+
+#box11::after {
+   content: "Back Content"; /* Content of the back side */
+   color: black;
+   font-size: 24px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: lightgreen; /* Back side background color */
+   border-radius: 10px; /* Optional: rounded corners for the back side */
+   backface-visibility: hidden; /* Hide back side when flipped */
+   transform: rotateY(180deg); /* Initially rotate the back side */
+}
+
+#box11:hover {
+   transform: rotateY(180deg); /* Flip the box horizontally on hover */
+}
+
+/* Box 12: Scale 3D */
+#box12 {
+   perspective: 800px; /* Enable perspective for the 3D space */
+}
+
+#box12:hover {
+   transform: scale3d(1.5, 1.5, 1.5); /* Scale the box in 3D space */
+   /* scale3d scales an element along all three axes (X, Y, and Z) */
+}

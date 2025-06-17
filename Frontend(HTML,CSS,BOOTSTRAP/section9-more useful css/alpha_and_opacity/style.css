@@ -1,0 +1,19 @@
+/* div.Alpha */
+div.Alpha {
+   width: 400px;
+   height: 400px;
+   /* Background color is semi-transparent red using RGBA (alpha value affects only the background) */
+   background-color: rgba(255, 0, 0, 0.5);  /* Red color with 50% transparency for the background */
+   
+}
+
+/* div.Opacity */
+div.Opacity {
+   margin-top: 10px;
+   width: 400px;
+   height: 400px;
+   /* Solid red background color */
+   background-color: red;
+   /* Entire div (including content and background) will be 50% transparent */
+   opacity: 0.5;  /* 50% opacity for the entire div (affects both background and content) */
+}
