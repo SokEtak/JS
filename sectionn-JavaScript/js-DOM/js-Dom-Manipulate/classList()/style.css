@@ -1,0 +1,17 @@
+
+        .border{
+            width: 200px;
+            height: 200px;
+            background-color:greenyellow;
+            margin-bottom: 10px;
+        }
+        .border-radius{
+           border: 2px solid green;
+            margin-bottom: 10px;
+            border-radius:10% ;
+        }
+
+        .border{
+            border: 2px solid green;
+            margin-bottom: 10px;
+        }

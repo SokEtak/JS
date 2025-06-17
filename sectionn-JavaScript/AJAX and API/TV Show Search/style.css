@@ -1,0 +1,40 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    max-width: 500px;
+    height: 80%;  /* Adjusting to make it scrollable */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Allow vertical scrolling */
+}
+.sicky-position{
+    position:sticky;
+}
+img{
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+img:hover{
+    cursor: pointer;
+}
+
+
