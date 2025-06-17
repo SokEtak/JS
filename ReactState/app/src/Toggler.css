@@ -1,0 +1,16 @@
+.toggler {
+    cursor: pointer;
+    width: 100px;  /* Set the width */
+    height: 100px; /* Set the height */
+    background-size: cover;  /* Make sure the image covers the whole div */
+    background-position: center; /* Center the background image */
+  }
+  
+  .toggle-off {
+    background-image: url("/heart(0).png");
+  }
+  
+  .toggle-on {
+    background-image: url("/heart(1).png");
+  }
+  

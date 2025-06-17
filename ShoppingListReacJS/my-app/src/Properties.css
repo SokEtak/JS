@@ -1,0 +1,13 @@
+*{
+    font-size: 8px;
+}
+.container{
+    display: flex;
+    width: 80vw;
+    gap: 30px;
+    justify-content: center;
+}
+
+.sub-container div{
+    
+}
